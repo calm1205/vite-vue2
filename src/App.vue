@@ -1,5 +1,5 @@
 <script>
-import MainTitle from "./components/atoms/MainTitle.vue"
+import MainTitle from "@/components/atoms/MainTitle.vue"
 
 export default {
   components: {
