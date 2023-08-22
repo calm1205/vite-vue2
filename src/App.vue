@@ -1,15 +1,18 @@
 <script>
 import MainTitle from "@/components/atoms/MainTitle.vue"
+import { Header } from "@/components/molecules/index.js"
 
 export default {
   components: {
     MainTitle,
+    Header,
   },
 }
 </script>
 
 <template>
   <div>
+    <Header>kk</Header>
     <h1>hello world</h1>
     <MainTitle name="class">hello slot</MainTitle>
     <MainTitle name="class"></MainTitle>
