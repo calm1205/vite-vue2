@@ -1,9 +1,9 @@
 <script>
-import Title from "./components/atoms/title.vue"
+import MainTitle from "./components/atoms/MainTitle.vue"
 
 export default {
   components: {
-    Title,
+    MainTitle,
   },
 }
 </script>
@@ -11,12 +11,16 @@ export default {
 <template>
   <div>
     <h1>hello world</h1>
-    <Title />
+    <MainTitle name="class">hello slot</MainTitle>
+    <MainTitle name="class"></MainTitle>
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "/index.scss";
+
 h1 {
-  color: red;
+  color: black;
+  color: $COLOR_PRIMARY;
 }
 </style>
