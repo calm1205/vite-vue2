@@ -22,7 +22,6 @@ export default {
 <template>
   <div class="wrapper">
     <Logo></Logo>
-    {{ color2 }}
     <div class="menu">
       <span>データベース</span>
       <span>契約管理</span>
@@ -34,6 +33,9 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

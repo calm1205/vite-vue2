@@ -1,14 +1,14 @@
 <script></script>
 
 <template>
-  <h1 class="title">MNTSQ</h1>
+  <div>
+    <h1 class="title">MNTSQ</h1>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-@import "/index.scss";
-
 .title {
-  color: $COLOR_WHITE;
+  color: white;
   font-size: 12px;
 }
 </style>

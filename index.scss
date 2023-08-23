@@ -3,13 +3,14 @@ $COLOR_WHITE: #f6f7f8;
 
 html,
 body {
+  width: 100vw;
   background-color: $COLOR_WHITE;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 * {
+  padding: 0;
+  margin: 0;
   color: $COLOR_PRIMARY;
   letter-spacing: 0.01em;
+  box-sizing: border-box;
 }

@@ -1,11 +1,10 @@
 <script>
-import MainTitle from "@/components/atoms/MainTitle.vue"
-import { Header } from "@/components/molecules/index.js"
+import { Header, SideMenu } from "@/components/molecules/index.js"
 
 export default {
   components: {
-    MainTitle,
     Header,
+    SideMenu,
   },
 }
 </script>
@@ -13,9 +12,13 @@ export default {
 <template>
   <div>
     <Header></Header>
-    <h1>hello world</h1>
-    <MainTitle name="class">hello slot</MainTitle>
-    <MainTitle name="class"></MainTitle>
+    <div class="headerArea"></div>
+    <div class="wrapper">
+      <SideMenu></SideMenu>
+      <div class="content">
+        <h1>main contents</h1>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -23,7 +26,18 @@ export default {
 @import "/index.scss";
 
 h1 {
-  color: black;
   color: $COLOR_PRIMARY;
+}
+
+.headerArea {
+  height: 48px;
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+}
+.content {
+  width: 100%;
+  padding: 20px;
 }
 </style>
