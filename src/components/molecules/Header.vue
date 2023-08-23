@@ -20,13 +20,15 @@ export default {
 </script>
 
 <template>
-  <div class="wrapper">
-    <Logo></Logo>
-    <div class="menu">
-      <span>データベース</span>
-      <span>契約管理</span>
-      <span>案件管理</span>
-      <span>自動ドラフティング</span>
+  <div>
+    <div class="wrapper">
+      <Logo></Logo>
+      <div class="menu">
+        <span>データベース</span>
+        <span>契約管理</span>
+        <span>案件管理</span>
+        <span>自動ドラフティング</span>
+      </div>
     </div>
   </div>
 </template>

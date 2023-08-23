@@ -10,10 +10,10 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="wrapper">
     <Header></Header>
     <div class="headerArea"></div>
-    <div class="wrapper">
+    <div class="underHeader">
       <SideMenu></SideMenu>
       <div class="content">
         <h1>main contents</h1>
@@ -25,6 +25,10 @@ export default {
 <style lang="scss" scoped>
 @import "/index.scss";
 
+.wrapper {
+  height: 100vh;
+}
+
 h1 {
   color: $COLOR_PRIMARY;
 }
@@ -33,8 +37,9 @@ h1 {
   height: 48px;
   width: 100%;
 }
-.wrapper {
+.underHeader {
   display: flex;
+  height: calc(100vh - 48px);
 }
 .content {
   width: 100%;
