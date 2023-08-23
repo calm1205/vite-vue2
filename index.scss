@@ -4,8 +4,12 @@ $COLOR_WHITE: #f6f7f8;
 html,
 body {
   background-color: $COLOR_WHITE;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 * {
   color: $COLOR_PRIMARY;
+  letter-spacing: 0.01em;
 }

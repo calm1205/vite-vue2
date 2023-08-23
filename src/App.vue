@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div>
-    <Header>kk</Header>
+    <Header></Header>
     <h1>hello world</h1>
     <MainTitle name="class">hello slot</MainTitle>
     <MainTitle name="class"></MainTitle>
