@@ -1,13 +1,12 @@
 <script></script>
 
 <template>
-  <div>
-    <div class="title">MNTSQ</div>
-  </div>
+  <h1>MNTSQ</h1>
 </template>
 
 <style lang="scss" scoped>
-.title {
+h1 {
   color: white;
+  font-size: 24px;
 }
 </style>

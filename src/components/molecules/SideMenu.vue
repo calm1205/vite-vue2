@@ -8,6 +8,7 @@
 .wrapper {
   width: 240px;
   height: 100vh;
-  border-right: 1px solid whitesmoke;
+  border-right: 1px solid gray;
+  padding: 20px;
 }
 </style>
