@@ -1,8 +1,10 @@
 <script>
+import { ListItem } from "@/components/atoms/index.js"
 import { Header, SideMenu } from "@/components/molecules/index.js"
 
 export default {
   components: {
+    ListItem,
     Header,
     SideMenu,
   },
@@ -17,6 +19,7 @@ export default {
       <SideMenu></SideMenu>
       <div class="content">
         <h1>main contents</h1>
+        <ListItem name="aaa" />
       </div>
     </div>
   </div>
@@ -37,10 +40,12 @@ h1 {
   height: 48px;
   width: 100%;
 }
+
 .underHeader {
   display: flex;
   height: calc(100vh - 48px);
 }
+
 .content {
   width: 100%;
   padding: 20px;
