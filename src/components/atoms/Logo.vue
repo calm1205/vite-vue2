@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 h1 {
-  font-family: 'Taviraj', serif;
-  color: white
+  font-family: "Taviraj", serif;
+  color: white;
 }
 </style>
