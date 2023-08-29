@@ -18,6 +18,7 @@ export default {
 li {
   display: flex;
   align-items: center;
+  color: $COLOR_WHITE;
 }
 
 div {

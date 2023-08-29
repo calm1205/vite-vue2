@@ -1,21 +1,8 @@
 <script>
 import { Logo } from "@/components/atoms/index.js"
-import { COLOR } from "@/constants/styles.js"
 
 export default {
-  components: {
-    Logo,
-  },
-  data: function () {
-    return {
-      color: { white: "white" },
-    }
-  },
-  created: function () {
-    for (const [key, value] of Object.entries(COLOR)) {
-      this[key] = value
-    }
-  },
+  components: { Logo, },
 }
 </script>
 
@@ -43,15 +30,16 @@ export default {
   align-items: center;
   height: 48px;
   padding: 0 20px;
-  background-color: v-bind(primary);
+  background-color: $COLOR_PRIMARY;
 }
 
 .menu {
   display: flex;
   gap: 20px;
   font-size: 14px;
+
   span {
-    color: v-bind(white);
+    color: $COLOR_WHITE;
   }
 }
 </style>

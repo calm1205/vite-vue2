@@ -24,8 +24,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import "/index.scss";
-
 .wrapper {
   height: 100vh;
 }
