@@ -1,6 +1,7 @@
 <script>
 import { ListItem } from "@/components/atoms/index.js"
-import { Header, SideMenu } from "@/components/molecules/index.js"
+import { Header } from "@/components/molecules/index.js"
+import { SideMenu } from "@/components/organisms/index.js"
 
 export default {
   components: {
