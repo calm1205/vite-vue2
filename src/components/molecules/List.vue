@@ -2,26 +2,22 @@
 import { ListItem } from "@/components/atoms/index.js"
 
 export default {
-  props: ["names"],
+  props: ["items"],
   components: {
-    ListItem
-  }
+    ListItem,
+  },
 }
 </script>
 
 <template>
   <ul>
-    <template v-for="name in names">
-      <ListItem :name="name" :key="name" />
+    <template v-for="(value, key) in items">
+      <ListItem :name="value" :to="key" :key="key" />
     </template>
   </ul>
 </template>
 
 <style lang="scss" scoped>
-ul {
-  list-style: none;
-}
-
 div {
   display: flex;
   align-items: center;

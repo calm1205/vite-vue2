@@ -10,4 +10,13 @@ body {
   color: $COLOR_PRIMARY;
   letter-spacing: 0.01em;
   box-sizing: border-box;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }

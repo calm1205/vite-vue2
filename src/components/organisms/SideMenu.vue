@@ -1,21 +1,21 @@
 <script>
 import { List } from "@/components/molecules/index.js"
-import { SIDE_MENU_LIST } from "../../constants/dummy"
+import { SIDE_MENU } from "../../constants/dummy"
 
 export default {
   components: {
-    List
+    List,
   },
   created() {
-    this.SIDE_MENU_LIST = SIDE_MENU_LIST
-  }
+    this.SIDE_MENU = SIDE_MENU
+  },
 }
 </script>
 
 <template>
   <div class="wrapper">
     <span> All files </span>
-    <List :names="SIDE_MENU_LIST" />
+    <List :items="SIDE_MENU" />
   </div>
 </template>
 
@@ -27,10 +27,11 @@ export default {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 span {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 </style>
