@@ -1,13 +1,13 @@
 <script>
-import { Header } from "@/components/molecules/index.js"
-import { SideMenu } from "@/components/organisms/index.js"
+  import { Header } from "@/components/molecules/index.js"
+  import { SideMenu } from "@/components/organisms/index.js"
 
-export default {
-  components: {
-    Header,
-    SideMenu,
-  },
-}
+  export default {
+    components: {
+      Header,
+      SideMenu,
+    },
+  }
 </script>
 
 <template>
@@ -18,33 +18,33 @@ export default {
       <SideMenu />
       <div class="content">
         <h1>main contents</h1>
-        <router-view> </router-view>
+        <router-view />
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.wrapper {
-  height: 100vh;
-}
+  .wrapper {
+    height: 100vh;
+  }
 
-h1 {
-  color: $COLOR_PRIMARY;
-}
+  h1 {
+    color: $COLOR_PRIMARY;
+  }
 
-.headerArea {
-  height: 48px;
-  width: 100%;
-}
+  .headerArea {
+    height: 48px;
+    width: 100%;
+  }
 
-.underHeader {
-  display: flex;
-  height: calc(100vh - 48px);
-}
+  .underHeader {
+    display: flex;
+    height: calc(100vh - 48px);
+  }
 
-.content {
-  width: 100%;
-  padding: 20px;
-}
+  .content {
+    width: 100%;
+    padding: 20px;
+  }
 </style>
