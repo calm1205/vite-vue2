@@ -1,2 +1,3 @@
-export { default as Logo } from "@/components/atoms/Logo.vue"
-export { default as ListItem } from "@/components/atoms/ListItem.vue"
+export { default as Logo } from "./Logo.vue"
+export { default as ListItem } from "./ListItem.vue"
+export { default as Card } from "./Card.vue"
