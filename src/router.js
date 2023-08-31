@@ -1,15 +1,18 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
-import { Logo } from "@/components/atoms/index"
+import { ConclusionVersion } from "@/components/pages/index"
 
 Vue.use(VueRouter)
 
-const Foo = { render: (h) => h(Logo) }
-const Bar = { render: (h) => h(Logo) }
+const renderComponent = (component) => ({ render: (h) => h(component) })
 
 const routes = [
-  { path: "/", name: "home", component: Foo },
-  { path: "/index", name: "index", component: Bar },
+  { path: "/", component: renderComponent(ConclusionVersion) },
+  { path: "/fixed", component: renderComponent(ConclusionVersion) },
+  { path: "/knowledge" },
+  { path: "/lowConsultation" },
+  { path: "/templates" },
+  { path: "/tests" },
 ]
 
 const router = new VueRouter({ mode: "history", routes })
