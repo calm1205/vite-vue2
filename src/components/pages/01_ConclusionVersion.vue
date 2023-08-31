@@ -1,11 +1,17 @@
 <script>
-import { Card, DocumentChip, Input } from "@/components/atoms/index.js"
+import {
+  Card,
+  DocumentChip,
+  Input,
+  DetailLink,
+} from "@/components/atoms/index.js"
 
 export default {
   components: {
     Card,
     DocumentChip,
     Input,
+    DetailLink,
   },
 }
 </script>
@@ -19,6 +25,7 @@ export default {
     <div class="inputWrap">
       <Input placeholder="Search freely by keyword." />
     </div>
+    <DetailLink text="All details" />
   </div>
 </template>
 
