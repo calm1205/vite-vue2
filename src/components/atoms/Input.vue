@@ -1,11 +1,11 @@
 <script>
 export default {
-  props: ["placeholder"],
+  props: ["id", "name", "placeholder"],
 }
 </script>
 
 <template>
-  <input :placeholder="placeholder" />
+  <input :id="id" :name="name" :placeholder="placeholder" />
 </template>
 
 <style lang="scss" scoped>

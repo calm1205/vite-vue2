@@ -23,7 +23,11 @@ export default {
     <Card text="hello world hello world" />
     <DocumentChip text="契約書.pdf" />
     <div class="inputWrap">
-      <Input placeholder="Search freely by keyword." />
+      <Input
+        id="search"
+        name="search"
+        placeholder="Search freely by keyword."
+      />
     </div>
     <DetailLink text="All details" />
   </div>
