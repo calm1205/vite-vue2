@@ -1,13 +1,12 @@
 {
-  "cSpell.ignoreWords": ["mntsq", "iconfont", "linebreak"],
-  "prettier.enable": true,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.ignoreWords": [
+    "mntsq",
+    "iconfont",
+    "linebreak"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "eslint.experimental.useFlatConfig": false,
-  "eslint.options": {
-    "overrideConfigFile": false
-  }
+  "eslint.options": false
 }

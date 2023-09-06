@@ -2,6 +2,7 @@
 export default {
   props: ["text", "to"],
 }
+
 </script>
 
 <template>
@@ -22,13 +23,16 @@ div {
   text-overflow: ellipsis;
   white-space: nowrap;
   cursor: pointer;
+
   :hover {
     color: $COLOR_LIGHT_PRIMARY;
   }
 }
+
 span {
   font-size: 1rem;
 }
+
 .material-icons {
   font-size: 1.2rem;
 }
