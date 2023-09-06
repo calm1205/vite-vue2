@@ -7,6 +7,4 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.experimental.useFlatConfig": false,
-  "eslint.options": false
 }
