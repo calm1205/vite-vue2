@@ -1,10 +1,6 @@
 {
-  "cSpell.ignoreWords": [
-    "mntsq",
-    "iconfont",
-    "linebreak"
-  ],
+  "cSpell.ignoreWords": ["vuex", "mntsq", "iconfont", "linebreak"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
+  }
 }
