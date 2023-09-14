@@ -6,6 +6,9 @@ export default {
     ...mapState({
       count: "count",
     }),
+    doubleCount() {
+      return this.$store.getters.doubleCount
+    },
   },
   methods: {
     ...mapMutations({
@@ -21,6 +24,7 @@ export default {
   <div class="wrap">
     <ul>
       <li>count: {{ count }}</li>
+      <li>doubleCount: {{ doubleCount }}</li>
     </ul>
 
     <section>
