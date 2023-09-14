@@ -5,6 +5,7 @@ import {
   Input,
   DetailLink,
   Counter,
+  CounterMapState,
 } from "@/components/atoms/index.js"
 
 export default {
@@ -14,6 +15,7 @@ export default {
     Input,
     DetailLink,
     Counter,
+    CounterMapState,
   },
 }
 </script>
@@ -33,6 +35,7 @@ export default {
     </div>
     <DetailLink text="All details" />
     <Counter />
+    <CounterMapState />
   </div>
 </template>
 
