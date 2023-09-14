@@ -4,6 +4,7 @@ import {
   DocumentChip,
   Input,
   DetailLink,
+  Counter,
 } from "@/components/atoms/index.js"
 
 export default {
@@ -12,6 +13,7 @@ export default {
     DocumentChip,
     Input,
     DetailLink,
+    Counter,
   },
 }
 </script>
@@ -30,6 +32,7 @@ export default {
       />
     </div>
     <DetailLink text="All details" />
+    <Counter />
   </div>
 </template>
 
