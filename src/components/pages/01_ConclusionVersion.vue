@@ -6,6 +6,7 @@ import {
   DetailLink,
   Counter,
   CounterMapState,
+  SlotScope,
 } from "@/components/atoms/index.js"
 
 export default {
@@ -16,6 +17,7 @@ export default {
     DetailLink,
     Counter,
     CounterMapState,
+    SlotScope,
   },
 }
 </script>
@@ -23,6 +25,15 @@ export default {
 <template>
   <div>
     <h1>01 締結版データ</h1>
+
+    <br />
+    <SlotScope>
+      <template v-slot:scope="scope">
+        {{ scope.userName.english }}
+      </template>
+    </SlotScope>
+    <br />
+
     <Card text="共通" />
     <Card text="hello world hello world" />
     <DocumentChip text="契約書.pdf" />

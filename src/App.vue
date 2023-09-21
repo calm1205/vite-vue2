@@ -1,11 +1,13 @@
 <script>
 import { Header } from "@/components/molecules/index.js"
 import { SideMenu } from "@/components/organisms/index.js"
+import router from "./router"
 
 export default {
   components: {
     Header,
     SideMenu,
+    router,
   },
 }
 </script>
@@ -19,6 +21,8 @@ export default {
       <div class="content">
         <h1>main contents</h1>
         <logo />
+        <br />
+        <router-view />
       </div>
     </div>
   </div>
