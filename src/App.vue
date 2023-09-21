@@ -18,7 +18,7 @@ export default {
       <SideMenu />
       <div class="content">
         <h1>main contents</h1>
-        <router-view />
+        <logo />
       </div>
     </div>
   </div>

@@ -3,9 +3,11 @@ import Vuex from "vuex"
 import App from "./App.vue"
 import router from "./router"
 import "material-icons/iconfont/material-icons.css"
+import Logo from "./components/atoms/Logo.vue"
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
+Vue.component("Logo", Logo)
 
 const store = new Vuex.Store({
   state: {
